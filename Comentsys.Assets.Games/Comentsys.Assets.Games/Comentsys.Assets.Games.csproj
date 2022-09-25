@@ -1,0 +1,99 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>10.0</LangVersion>
+		<Title>Asset Resource for Games including Chess and Mahjong</Title>
+		<Authors>Comentsys</Authors>
+		<Company>Comentsys</Company>
+		<Version>1.0.0</Version>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageReleaseNotes>
+			1.0.0 - Initial Release
+		</PackageReleaseNotes>
+		<PackageProjectUrl>https://github.com/Comentsys/Comentsys.Assets.Games</PackageProjectUrl>
+		<Description>Asset Resource for Games including Chess and Mahjong</Description>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/Comentsys/Comentsys.Assets.Games</RepositoryUrl>
+		<PackageIcon>comentsys.assets.game.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Resources\Chess\Black\Bishop.svg" />
+		<EmbeddedResource Include="Resources\Chess\Black\King.svg" />
+		<EmbeddedResource Include="Resources\Chess\Black\Knight.svg" />
+		<EmbeddedResource Include="Resources\Chess\Black\Pawn.svg" />
+		<EmbeddedResource Include="Resources\Chess\Black\Queen.svg" />
+		<EmbeddedResource Include="Resources\Chess\Black\Rook.svg" />
+		<EmbeddedResource Include="Resources\Chess\White\Bishop.svg" />
+		<EmbeddedResource Include="Resources\Chess\White\King.svg" />
+		<EmbeddedResource Include="Resources\Chess\White\Knight.svg" />
+		<EmbeddedResource Include="Resources\Chess\White\Pawn.svg" />
+		<EmbeddedResource Include="Resources\Chess\White\Queen.svg" />
+		<EmbeddedResource Include="Resources\Chess\White\Rook.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\Autumn.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\Back.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\Bamboo.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\Chrysanthemum.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\EastWind.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\EightOfBamboos.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\EightOfCharacters.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\EightOfCircles.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\FiveOfBamboos.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\FiveOfCharacters.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\FiveOfCircles.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\FourOfBamboos.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\FourOfCharacters.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\FourOfCircles.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\GreenDragon.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\Joker.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\NineOfBamboos.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\NineOfCharacters.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\NineOfCircles.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\NorthWind.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\OneOfBamboos.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\OneOfCharacters.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\OneOfCircles.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\Orchid.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\Plum.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\RedDragon.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\SevenOfBamboos.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\SevenOfCharacters.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\SevenOfCircles.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\SixOfBamboos.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\SixOfCharacters.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\SixOfCircles.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\SouthWind.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\Spring.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\Summer.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\ThreeOfBamboos.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\ThreeOfCharacters.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\ThreeOfCircles.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\TwoOfBamboos.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\TwoOfCharacters.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\TwoOfCircles.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\WestWind.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\WhiteDragon.svg" />
+		<EmbeddedResource Include="Resources\Mahjong\Winter.svg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\Assets\comentsys.assets.game.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Comentsys.Toolkit" Version="1.0.0" />
+	</ItemGroup>
+
+</Project>
