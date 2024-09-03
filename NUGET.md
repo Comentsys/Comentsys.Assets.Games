@@ -16,6 +16,10 @@ Install-Package Comentsys.Assets.Games
 
 ## Change Log
 
+### Version 1.1.0
+
+- Update for Comentsys.Toolkit
+
 ### Version 1.0.0
 
 - Initial Release

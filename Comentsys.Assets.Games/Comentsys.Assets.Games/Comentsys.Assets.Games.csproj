@@ -8,10 +8,11 @@
 		<Title>Asset Resource for Games including Chess and Mahjong</Title>
 		<Authors>Comentsys</Authors>
 		<Company>Comentsys</Company>
-		<Version>1.0.0</Version>
+		<Version>1.1.0</Version>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageReleaseNotes>
 			1.0.0 - Initial Release
+			1.1.0 - Update for Comentsys.Toolkit
 		</PackageReleaseNotes>
 		<PackageProjectUrl>https://github.com/Comentsys/Comentsys.Assets.Games</PackageProjectUrl>
 		<Description>Asset Resource for Games including Chess and Mahjong</Description>
@@ -39,7 +40,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Comentsys.Toolkit" Version="1.0.0" />
+	  <PackageReference Include="Comentsys.Toolkit" Version="1.*" />
 	</ItemGroup>
 
 </Project>
