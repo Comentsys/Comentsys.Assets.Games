@@ -1,8 +1,17 @@
 # Comentsys.Assets.Games
 
-**Comentsys.Assets.Games** is an **Asset Resource** in **.NET Standard** for **Games** including **Chess** from [commons.wikimedia.org/wiki/Template:SVG_chess_pieces](https://commons.wikimedia.org/wiki/Template:SVG_chess_pieces) and **Mahjong** from [commons.wikimedia.org/wiki/User:Shizhao/Mahjong](https://commons.wikimedia.org/wiki/User:Shizhao/Mahjong) and uses **Comentsys.Toolkit**.
+**Comentsys.Assets.Games** is an **Asset Resource** in **.NET Standard** for **Games** using **Comentsys.Toolkit** including:
+
+- **Chess** from [commons.wikimedia.org/wiki/Template:SVG_chess_pieces](https://commons.wikimedia.org/wiki/Template:SVG_chess_pieces) designed by **Cburnett**
+- **Mahjong** from [commons.wikimedia.org/wiki/User:Shizhao/Mahjong](https://commons.wikimedia.org/wiki/User:Shizhao/Mahjong) designed by **Shizhao**
+- **Playing Cards** from [commons.wikimedia.org/wiki/Category:SVG_playing_cards_6](https://commons.wikimedia.org/wiki/Category:SVG_playing_cards_6) designed by **TheRealRevK**
+- **Dice**, **Dominoes**, **Pieces** and **Boards** designed by **Comentsys**
 
 ## Change Log
+
+### Version 2.0.0
+
+- Add Playing Cards, Dice, Dominoes, Piece and Board
 
 ### Version 1.1.0
 
@@ -15,6 +24,16 @@
 ## ChessPiece
 
 `ChessPiece` represents **Chess Pieces** and were originally designed by **Cburnett**. You can also customise the **Colours** used as **Black** and **White** for the **Chess Pieces** of either **Set** to create a customised experience.
+
+### Examples
+
+#### White
+
+![Chess - White](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/chess-white.png)
+
+#### Black
+
+![Chess - Black](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/chess-black.png)
 
 ### Get(set, type, black, white)
 
@@ -31,19 +50,19 @@ Get Asset Resource
 
 Asset Resource
 
-## ChessPieceSet
+### ChessPieceSet
 
 `ChessPieceSet` represents the `Black` and `White` sets of **Chess Pieces**.
 
-### Black
+#### Black
 
 Black Chess Pieces
 
-### White
+#### White
 
 White Chess Pieces
 
-## ChessPieceType
+### ChessPieceType
 
 `ChessPieceType` supports the following **Chess Pieces**
 
@@ -59,6 +78,10 @@ Queen
 ## MahjongTile
 
 `MahjongTile` represents **Mahjong Tiles** and were orginally designed by **Shizhao** and put into the **Public Domain**. You can also customise the **Colours** used by the **Mahjong Tiles** with either a single **Colour** or an **Array** of **Colours** to create customised **Mahjong Tiles**.
+
+### Examples
+
+![Mahjong](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/mahjong.png)
 
 ### Get(type, sources, targets)
 
@@ -100,11 +123,12 @@ Get Asset Resource
 
 Asset Resource
 
-## MahjongTileType
+### MahjongTileType
 
-`MahjongTileType` supports the following **Mahjong Tiles**
+`MahjongTileType` supports the following **Mahjong Tiles** as well as `Back` representing the **Back** of a **Mahjong Tile**.
 
 ```
+Back
 EastWind,
 SouthWind,
 WestWind,
@@ -147,34 +171,673 @@ Spring,
 Summer,
 Autumn,
 Winter,
-Joker,
+Joker
+```
+
+## PlayingCard
+
+`PlayingCard` represents **Playing Cards** and were orginally designed by **TheRealRevK** and put into the **Public Domain**. You can also customise the **Colours** used by the **Playing Cards** with either a single **Colour** or an **Array** of **Colours** to create customised **Playing Cards**.
+
+### Examples
+
+![Playing Cards](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/playingcards.png)
+
+### Get(type, sources, targets)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `type` | `Comentsys.Assets.Games.PlayingCardType`<br>Playing Card Type |
+| `sources` | `System.Drawing.Color[]?`<br>Source Colours |
+| `targets` | `System.Drawing.Color[]?`<br>Target Colours |
+
+#### Returns
+
+Asset Resource
+
+### Get(type, source, target)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `type` | `Comentsys.Assets.Games.PlayingCardType`<br>Playing Card Type |
+| `source` | `System.Drawing.Color?`<br>Source Colour |
+| `target` | `System.Drawing.Color?`<br>Target Colour |
+
+#### Returns
+
+Asset Resource
+
+### Get(type)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `type` | `Comentsys.Assets.Games.PlayingCardType`<br>PlayingCard Tile Type |
+
+#### Returns
+
+Asset Resource
+
+### Get(value, sources, targets)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `System.Int32`<br>Playing Card Type Value |
+| `sources` | `System.Drawing.Color[]?`<br>Source Colours |
+| `targets` | `System.Drawing.Color[]?`<br>Target Colours |
+
+#### Returns
+
+Asset Resource
+
+### Get(value, source, target)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `System.Int32`<br>Playing Card Type Value |
+| `source` | `System.Drawing.Color?`<br>Source Colour |
+| `target` | `System.Drawing.Color?`<br>Target Colour |
+
+#### Returns
+
+Asset Resource
+
+### Get(value)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `System.Int32`<br>PlayingCard Tile Type Value |
+
+#### Returns
+
+Asset Resource
+
+### PlayingCardType
+
+`PlayingCardType` supports the following **Playing Cards** as well as `Back` representing the **Back** of a **Playing Card**.
+
+```
 Back
+AceOfClubs
+TwoOfClubs
+ThreeOfClubs
+FourOfClubs
+FiveOfClubs
+SixOfClubs
+SevenOfClubs
+EightOfClubs
+NineOfClubs
+TenOfClubs
+JackOfClubs
+QueenOfClubs
+KingOfClubs
+AceOfDiamonds
+TwoOfDiamonds
+ThreeOfDiamonds
+FourOfDiamonds
+FiveOfDiamonds
+SixOfDiamonds
+SevenOfDiamonds
+EightOfDiamonds
+NineOfDiamonds
+TenOfDiamonds
+JackOfDiamonds
+QueenOfDiamonds
+KingOfDiamonds
+AceOfHearts
+TwoOfHearts
+ThreeOfHearts
+FourOfHearts
+FiveOfHearts
+SixOfHearts
+SevenOfHearts
+EightOfHearts
+NineOfHearts
+TenOfHearts
+JackOfHearts
+QueenOfHearts
+KingOfHearts
+AceOfSpades
+TwoOfSpades
+ThreeOfSpades
+FourOfSpades
+FiveOfSpades
+SixOfSpades
+SevenOfSpades
+EightOfSpades
+NineOfSpades
+TenOfSpades
+JackOfSpades
+QueenOfSpades
+KingOfSpades
+```
+
+## DiceFace
+
+`DiceFace` represents a **Dice Face**. You can also customise the **Colours** used by the **Dice** with a single **Colour** for the **Fill** or an **Array** of **Colours** for the **Pips** along with setting the **Stroke** to create customised **Dice** in either **Rounded** or **Square** styles.
+
+### Examples
+
+#### Rounded
+
+![Dice - Rounded](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/dice-rounded.png)
+
+#### Square
+
+![Dice - Square](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/dice-square.png)
+
+### Get(value, fill, stroke, pips, style)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `Comentsys.Assets.Games.DiceFaceValue`<br>Dice Face Value |
+| `fill` | `System.Drawing.Color?`<br>Fill Colour |
+| `stroke` | `System.Drawing.Color?`<br>Stroke Colour |
+| `pips` | `System.Drawing.Color[]?`<br>Pip Colours |
+| `style` | `Comentsys.Assets.Games.DiceFaceStyle?`<br>Dice Face Style |
+
+#### Returns
+
+Asset Resource
+
+### Get(value, fill, stroke, pip, style)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `Comentsys.Assets.Games.DiceFaceValue`<br>Dice Face Value |
+| `fill` | `System.Drawing.Color?`<br>Fill Colour |
+| `stroke` | `System.Drawing.Color?`<br>Stroke Colour |
+| `pips` | `System.Drawing.Color?`<br>Pip Colour |
+| `style` | `Comentsys.Assets.Games.DiceFaceStyle?`<br>Dice Face Style |
+
+#### Returns
+
+Asset Resource
+
+### Get(type, style)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `Comentsys.Assets.Games.DiceFaceValue`<br>Dice Face Value |
+| `style` | `Comentsys.Assets.Games.DiceFaceStyle?`<br>Dice Face Style |
+
+#### Returns
+
+Asset Resource
+
+### Get(value, fill, stroke, pips, style)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `System.Int32`<br>Value |
+| `fill` | `System.Drawing.Color?`<br>Fill Colour |
+| `stroke` | `System.Drawing.Color?`<br>Stroke Colour |
+| `pips` | `System.Drawing.Color[]?`<br>Pip Colours |
+| `style` | `Comentsys.Assets.Games.DiceFaceStyle?`<br>Dice Face Style |
+
+#### Returns
+
+Asset Resource
+
+### Get(value, fill, stroke, pip, style)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `System.Int32`<br> Value |
+| `fill` | `System.Drawing.Color?`<br>Fill Colour |
+| `stroke` | `System.Drawing.Color?`<br>Stroke Colour |
+| `pips` | `System.Drawing.Color?`<br>Pip Colour |
+| `style` | `Comentsys.Assets.Games.DiceFaceStyle?`<br>Dice Face Style |
+
+#### Returns
+
+Asset Resource
+
+### Get(type, style)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `System.Int32`<br>Value |
+| `style` | `Comentsys.Assets.Games.DiceFaceStyle?`<br>Dice Face Style |
+
+#### Returns
+
+Asset Resource
+
+### DiceFaceValue
+
+`DiceFaceValue` supports the following **Dice Faces** as well as `Blank`.
+
+```
+Blank
+One
+Two
+Three
+Four
+Five
+Six
+```
+
+### DiceFaceStyle
+
+`DiceFaceStyle` represents the `Rounded` and `Square` style of **Dice**.
+
+#### Rounded
+
+Rounded Dice Face Style
+
+#### Square
+
+Square Dice Face Style
+
+## Domino
+
+`Domino` represents a **Domino** that can be **Vertical** or **Horizontal**. You can also customise the **Colours** used by the **Domino** with a single **Colour** for the **Fill** or an **Array** of **Colours** for the **Pips**, which is shared by the **Divider**, along with setting the **Stroke** to create a customised **Domino** in either **Rounded** or **Square** styles.
+
+### Examples
+
+#### Vertical Rounded
+
+![Domino - Vertical - Rounded](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/domino-vertical-rounded.png)
+
+#### Vertical Square
+
+![Domino - Vertical - Square](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/domino-vertical-square.png)
+
+#### Horizontal Rounded
+
+![Domino - Horizontal - Rounded](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/domino-horizontal-rounded.png)
+
+#### Horizontal Square
+
+![Domino - Horizontal - Square](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/domino-horizontal-square.png)
+
+### Get(value, fill, stroke, pips, set, style)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `Comentsys.Assets.Games.DominoValue`<br>Domino Value |
+| `fill` | `System.Drawing.Color?`<br>Fill Colour |
+| `stroke` | `System.Drawing.Color?`<br>Stroke Colour |
+| `pips` | `System.Drawing.Color[]?`<br>Pip Colours |
+| `set` | `Comentsys.Assets.Games.DominoSet?`<br>Domino Set |
+| `style` | `Comentsys.Assets.Games.DominoStyle?`<br>Domino Style |
+
+#### Returns
+
+Asset Resource
+
+### Get(value, fill, stroke, pip, set, style)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `Comentsys.Assets.Games.DominoValue`<br>Domino Value |
+| `fill` | `System.Drawing.Color?`<br>Fill Colour |
+| `stroke` | `System.Drawing.Color?`<br>Stroke Colour |
+| `pip` | `System.Drawing.Color?`<br>Pip Colour |
+| `set` | `Comentsys.Assets.Games.DominoSet?`<br>Domino Set |
+| `style` | `Comentsys.Assets.Games.DominoStyle?`<br>Domino Style |
+
+#### Returns
+
+Asset Resource
+
+### Get(type, set, style)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `Comentsys.Assets.Games.DominoValue`<br>Domino Value |
+| `set` | `Comentsys.Assets.Games.DominoSet?`<br>Domino Set |
+| `style` | `Comentsys.Assets.Games.DominoStyle?`<br>Domino Style |
+
+#### Returns
+
+Asset Resource
+
+### Get(value, fill, stroke, pips, set, style)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `System.Int32`<br> Value |
+| `fill` | `System.Drawing.Color?`<br>Fill Colour |
+| `stroke` | `System.Drawing.Color?`<br>Stroke Colour |
+| `pips` | `System.Drawing.Color[]?`<br>Pip Colours |
+| `set` | `Comentsys.Assets.Games.DominoSet?`<br>Domino Set |
+| `style` | `Comentsys.Assets.Games.DominoStyle?`<br>Domino Style |
+
+#### Returns
+
+Asset Resource
+
+### Get(value, fill, stroke, pip, set, style)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `System.Int32`<br> Value |
+| `fill` | `System.Drawing.Color?`<br>Fill Colour |
+| `stroke` | `System.Drawing.Color?`<br>Stroke Colour |
+| `pip` | `System.Drawing.Color?`<br>Pip Colour |
+| `set` | `Comentsys.Assets.Games.DominoSet?`<br>Domino Set |
+| `style` | `Comentsys.Assets.Games.DominoStyle?`<br>Domino Style |
+
+#### Returns
+
+Asset Resource
+
+### Get(type, set, style)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `value` | `System.Int32`<br> Value |
+| `set` | `Comentsys.Assets.Games.DominoSet?`<br>Domino Set |
+| `style` | `Comentsys.Assets.Games.DominoStyle?`<br>Domino Style |
+
+#### Returns
+
+Asset Resource
+
+### DominoValue
+
+`DominoValue` supports the following **Dominos** as well as `Back` representing the **Back** of a **Domino**.
+
+```
+Back
+DoubleZero
+ZeroOne
+ZeroTwo
+ZeroThree
+ZeroFour
+ZeroFive
+ZeroSix
+DoubleOne
+OneTwo
+OneThree
+OneFour
+OneFive
+OneSix
+DoubleTwo
+TwoThree
+TwoFour
+TwoFive
+TwoSix
+DoubleThree
+ThreeFour
+ThreeFive
+ThreeSix
+DoubleFour
+FourFive
+FourSix
+DoubleFive
+FiveSix
+DoubleSix
+```
+
+### DominoSet
+
+`DominoSet` represents the `Vertical` and `Horizontal` set of **Dominos**.
+
+#### Vertical
+
+Vertical Domino Set
+
+#### Horizontal
+
+Horizontal Domino Set
+
+### DominoStyle
+
+`DominoStyle` represents the `Rounded` and `Square` style of **Dominos**.
+
+#### Rounded
+
+Rounded Domino Style
+
+#### Square
+
+Squared Domino Style
+
+## GamePiece
+
+`GamePiece` represents a **Piece** for a **Game** that can be a **Circle**, **Square**, **Rounded** or a **Hexagon** from a **Set** of **Regular**, **Medium** or **Light**. You can also customise the **Colours** used by the **Piece** including the **Fill** and **Stroke** along with the **Foreground** used for an optional **Value** to create a customised **Piece**.
+
+### Examples
+
+#### Regular
+
+![Regular](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/piece-regular.png)
+
+#### Regular - Custom
+
+![Regular - Custom](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/piece-regular-custom.png)
+
+#### Medium
+
+![Medium](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/piece-medium.png)
+
+#### Medium - Custom
+
+![Medium - Custom](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/piece-medium-custom.png)
+
+#### Light
+
+![Light](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/piece-light.png)
+
+#### Light - Custom
+
+![Light - Custom](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/piece-light-custom.png)
+
+### Get(set, type, fill, stroke, foreground, value)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `set` | `Comentsys.Assets.Games.DominoStyle?`<br>Game Piece Set |
+| `type` | `Comentsys.Assets.Games.GamePieceType?`<br>Game Piece Type |
+| `fill` | `System.Drawing.Color?`<br>Fill Colour |
+| `stroke` | `System.Drawing.Color?`<br>Stroke Colour |
+| `foreground` | `System.Drawing.Color?`<br>Foreground Colour |
+| `value` | `System.String`<br> Value |
+
+#### Returns
+
+Asset Resource
+
+### GamePieceSet
+
+`GamePieceSet` supports the following sets of **Piece**
+
+#### Regular
+
+Regular Game Piece
+
+#### Medium
+
+Medium Game Piece
+
+### Light
+
+Light Game Piece
+
+### GamePieceType
+
+`GamePieceType` supports the following types of **Piece**
+
+```
+Circle
+Square
+Rounded
+Hexagon
+```
+
+## GameBoard
+
+`GameBoard` represents a **Board** for a **Game** made up of **Squares** that has **Designs** for **Chess**, **Draughts** / **Checkers**, or **Reversi** / **Othello** or choose a **Type** from **One by One** up to **Ten by Ten**. You can also customise the **Colours** used by the **Board** including the **Squares** with **Primary** and **Secondary** or set them how you need with **Fill** along with **Stroke** plus you can set the **Foreground** for any **Labels** to create a custom **Board**.
+
+### Examples
+
+#### Design - Chess
+
+![Design - Chess](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/board-chess.png)
+
+#### Design - Draughts / Checkers
+
+![Design - Draughts](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/board-draughts.png)
+
+#### Design - Reversi / Othello
+
+![Design - Reversi](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/board-reversi.png)
+
+#### Board Types
+
+![Board Types](https://raw.githubusercontent.com/Comentsys/Comentsys.Assets.Games/refs/heads/main/Assets/board.png)
+
+### Get(type, primary, secondary, stroke, foreground, labels, showLabels)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `type` | `Comentsys.Assets.Games.GameBoardType?`<br>Game Board Type |
+| `primary` | `System.Drawing.Color?`<br>Primary Board Colour |
+| `secondary` | `System.Drawing.Color?`<br>Secondary Board Colour |
+| `stroke` | `System.Drawing.Color?`<br>Board Stroke Colour |
+| `foreground` | `System.Drawing.Color?`<br>Label Foreground Colour |
+| `labels` | `System.String[]?`<br>Board Labels |
+| `showLabels` | `System.Boolean`<br> Show Board Labels? |
+
+#### Returns
+
+Asset Resource
+
+### Get(type, fill, stroke, foreground, labels, showLabels)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `type` | `Comentsys.Assets.Games.GameBoardType?`<br>Game Board Type |
+| `fill` | `System.Drawing.Color[]?`<br>Board Fill Colours |
+| `stroke` | `System.Drawing.Color?`<br>Board Stroke Colour |
+| `foreground` | `System.Drawing.Color?`<br>Label Foreground Colour |
+| `labels` | `System.String[]?`<br>Board Labels |
+| `showLabels` | `System.Boolean`<br> Show Board Labels? |
+
+#### Returns
+
+Asset Resource
+
+### Get(type, foreground, labels, showLabels)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `type` | `Comentsys.Assets.Games.GameBoardType?`<br>Game Board Type |
+| `foreground` | `System.Drawing.Color?`<br>Label Foreground Colour |
+| `labels` | `System.String[]?`<br>Board Labels |
+| `showLabels` | `System.Boolean`<br> Show Board Labels? |
+
+#### Returns
+
+Asset Resource
+
+### Get(design, showLabels)
+
+Get Asset Resource
+
+| Name | Description |
+| ---- | ----------- |
+| `design` | `Comentsys.Assets.Games.GameBoardDesign?`<br>Game Board Design |
+| `showLabels` | `System.Boolean`<br> Show Board Labels? |
+
+#### Returns
+
+Asset Resource
+
+### GameBoardDesign
+
+`GameBoardDesign` supports the following designs of **Board**
+
+#### Chess
+
+Chess Board Design
+
+#### Draughts
+
+Draughts or Checkers Board Design
+
+#### Reversi
+
+Reversi or Othello Board Design
+
+### GameBoardType
+
+`GameBoardType` supports the following types of **Board**
+
+```
+OneByOne
+TwoByTwo
+ThreeByThree
+FourByFour
+FiveByFive
+SixBySix
+SevenBySeven
+EightByEight
+NineByNine
+TenByTen
 ```
 
 ## Licences
 
+### Package / Dice, Domino, Piece and Board
+
 ```
 The MIT License (MIT)
 
-Copyright (c) 2022 Comentsys
+Copyright (c) 2025 Comentsys
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to do
-so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
 ### Mahjong Tiles
@@ -185,7 +848,7 @@ Public Domain
 I grant anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law.
 ```
 
-## Chess Pieces
+### Chess Pieces
 
 ```
 Creative Commons Legal Code
@@ -547,4 +1210,130 @@ Creative Commons Notice
     this trademark restriction does not form part of the License.
 
     Creative Commons may be contacted at https://creativecommons.org/.
+```
+
+### Playing Cards
+
+```
+Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
 ```
