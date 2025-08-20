@@ -11,6 +11,14 @@ public class MahjongTile : AssetBase<MahjongTile>
     private const string root = "Comentsys.Assets.Games.Resources";
 
     /// <summary>
+    /// Get Mahjong Tile Type
+    /// </summary>
+    /// <param name="value">Value</param>
+    /// <returns>Mahjong Tile Type</returns>
+    private static MahjongTileType GetMahjongTypeValue(int value) =>
+        Enum.IsDefined(typeof(MahjongTileType), value) ? (MahjongTileType)value : MahjongTileType.Back;
+
+    /// <summary>
     /// Path
     /// </summary>
     /// <param name="type">Mahjong Tile Type</param>
@@ -45,4 +53,33 @@ public class MahjongTile : AssetBase<MahjongTile>
     /// <returns>Asset Resource</returns>
     public static AssetResource Get(MahjongTileType type, Color[]? sources, Color[]? targets) =>
         new(AsStream(root, Path(type), sources, targets) ?? new MemoryStream(), height, width);
+
+
+    /// <summary>
+    /// Get Asset Resource
+    /// </summary>
+    /// <param name="value">Mahjong Tile Type Value</param>
+    /// <returns>Asset Resource</returns>
+    public static AssetResource Get(int value) =>
+        Get(GetMahjongTypeValue(value));
+
+    /// <summary>
+    /// Get Asset Resource
+    /// </summary>
+    /// <param name="value">Mahjong Tile Type Value</param>
+    /// <param name="source">Source Colour</param>
+    /// <param name="target">Target Colour</param>
+    /// <returns>Asset Resource</returns>
+    public static AssetResource Get(int value, Color? source, Color? target) =>
+        Get(GetMahjongTypeValue(value), source, target);
+
+    /// <summary>
+    /// Get Asset Resource
+    /// </summary>
+    /// <param name="value">Mahjong Tile Type Value</param>
+    /// <param name="sources">Source Colours</param>
+    /// <param name="targets">Target Colours</param>
+    /// <returns>Asset Resource</returns>
+    public static AssetResource Get(int value, Color[]? sources, Color[]? targets) =>
+        Get(GetMahjongTypeValue(value), sources, targets);
 }

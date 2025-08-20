@@ -1,0 +1,213 @@
+<svg viewBox="0 0 502 502" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(1,1)">
+	  <rect id="r1-c1" x="0" y="0" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r1-c1" x="45" y="45" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">A1</text>
+	  <rect id="r1-c2" x="50" y="0" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r1-c2" x="95" y="45" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">A2</text>
+	  <rect id="r1-c3" x="100" y="0" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r1-c3" x="145" y="45" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">A3</text>
+	  <rect id="r1-c4" x="150" y="0" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r1-c4" x="195" y="45" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">A4</text>
+	  <rect id="r1-c5" x="200" y="0" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r1-c5" x="245" y="45" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">A5</text>
+	  <rect id="r1-c6" x="250" y="0" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r1-c6" x="295" y="45" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">A6</text>
+	  <rect id="r1-c7" x="300" y="0" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r1-c7" x="345" y="45" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">A7</text>
+	  <rect id="r1-c8" x="350" y="0" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r1-c8" x="395" y="45" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">A8</text>
+	  <rect id="r1-c9" x="400" y="0" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r1-c9" x="445" y="45" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">A9</text>
+	  <rect id="r1-c10" x="450" y="0" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r1-c10" x="495" y="45" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">A10</text>
+
+	  <rect id="r2-c1" x="0" y="50" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r2-c1" x="45" y="95" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">B1</text>
+	  <rect id="r2-c2" x="50" y="50" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r2-c2" x="95" y="95" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">B2</text>
+	  <rect id="r2-c3" x="100" y="50" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r2-c3" x="145" y="95" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">B3</text>
+	  <rect id="r2-c4" x="150" y="50" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r2-c4" x="195" y="95" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">B4</text>
+	  <rect id="r2-c5" x="200" y="50" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r2-c5" x="245" y="95" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">B5</text>
+	  <rect id="r2-c6" x="250" y="50" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r2-c6" x="295" y="95" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">B6</text>
+	  <rect id="r2-c7" x="300" y="50" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r2-c7" x="345" y="95" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">B7</text>
+	  <rect id="r2-c8" x="350" y="50" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r2-c8" x="395" y="95" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">B8</text>
+	  <rect id="r2-c9" x="400" y="50" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r2-c9" x="445" y="95" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">B9</text>
+	  <rect id="r2-c10" x="450" y="50" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r2-c10" x="495" y="95" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">B10</text>
+
+	  <rect id="r3-c1" x="0" y="100" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r3-c1" x="45" y="145" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">C1</text>
+	  <rect id="r3-c2" x="50" y="100" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r3-c2" x="95" y="145" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">C2</text>
+	  <rect id="r3-c3" x="100" y="100" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r3-c3" x="145" y="145" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">C3</text>
+	  <rect id="r3-c4" x="150" y="100" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r3-c4" x="195" y="145" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">C4</text>
+	  <rect id="r3-c5" x="200" y="100" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r3-c5" x="245" y="145" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">C5</text>
+	  <rect id="r3-c6" x="250" y="100" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r3-c6" x="295" y="145" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">C6</text>
+	  <rect id="r3-c7" x="300" y="100" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r3-c7" x="345" y="145" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">C7</text>
+	  <rect id="r3-c8" x="350" y="100" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r3-c8" x="395" y="145" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">C8</text>
+	  <rect id="r3-c9" x="400" y="100" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r3-c9" x="445" y="145" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">C9</text>
+	  <rect id="r3-c10" x="450" y="100" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r3-c10" x="495" y="145" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">C10</text>
+
+	  <rect id="r4-c1" x="0" y="150" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r4-c1" x="45" y="195" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">D1</text>
+	  <rect id="r4-c2" x="50" y="150" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r4-c2" x="95" y="195" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">D2</text>
+	  <rect id="r4-c3" x="100" y="150" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r4-c3" x="145" y="195" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">D3</text>
+	  <rect id="r4-c4" x="150" y="150" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r4-c4" x="195" y="195" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">D4</text>
+	  <rect id="r4-c5" x="200" y="150" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r4-c5" x="245" y="195" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">D5</text>
+	  <rect id="r4-c6" x="250" y="150" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r4-c6" x="295" y="195" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">D6</text>
+	  <rect id="r4-c7" x="300" y="150" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r4-c7" x="345" y="195" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">D7</text>
+	  <rect id="r4-c8" x="350" y="150" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r4-c8" x="395" y="195" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">D8</text>
+	  <rect id="r4-c9" x="400" y="150" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r4-c9" x="445" y="195" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">D9</text>
+	  <rect id="r4-c10" x="450" y="150" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r4-c10" x="495" y="195" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">D10</text>
+
+	  <rect id="r5-c1" x="0" y="200" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r5-c1" x="45" y="245" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">E1</text>
+	  <rect id="r5-c2" x="50" y="200" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r5-c2" x="95" y="245" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">E2</text>
+	  <rect id="r5-c3" x="100" y="200" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r5-c3" x="145" y="245" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">E3</text>
+	  <rect id="r5-c4" x="150" y="200" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r5-c4" x="195" y="245" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">E4</text>
+	  <rect id="r5-c5" x="200" y="200" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r5-c5" x="245" y="245" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">E5</text>
+	  <rect id="r5-c6" x="250" y="200" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r5-c6" x="295" y="245" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">E6</text>
+	  <rect id="r5-c7" x="300" y="200" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r5-c7" x="345" y="245" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">E7</text>
+	  <rect id="r5-c8" x="350" y="200" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r5-c8" x="395" y="245" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">E8</text>
+	  <rect id="r5-c9" x="400" y="200" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r5-c9" x="445" y="245" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">E9</text>
+	  <rect id="r5-c10" x="450" y="200" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r5-c10" x="495" y="245" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">E10</text>
+
+	  <rect id="r6-c1" x="0" y="250" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r6-c1" x="45" y="295" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">F1</text>
+	  <rect id="r6-c2" x="50" y="250" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r6-c2" x="95" y="295" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">F2</text>
+	  <rect id="r6-c3" x="100" y="250" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r6-c3" x="145" y="295" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">F3</text>
+	  <rect id="r6-c4" x="150" y="250" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r6-c4" x="195" y="295" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">F4</text>
+	  <rect id="r6-c5" x="200" y="250" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r6-c5" x="245" y="295" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">F5</text>
+	  <rect id="r6-c6" x="250" y="250" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r6-c6" x="295" y="295" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">F6</text>
+	  <rect id="r6-c7" x="300" y="250" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r6-c7" x="345" y="295" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">F7</text>
+	  <rect id="r6-c8" x="350" y="250" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r6-c8" x="395" y="295" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">F8</text>
+	  <rect id="r6-c9" x="400" y="250" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r6-c9" x="445" y="295" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">F9</text>
+	  <rect id="r6-c10" x="450" y="250" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r6-c10" x="495" y="295" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">F10</text>
+
+	  <rect id="r7-c1" x="0" y="300" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r7-c1" x="45" y="345" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">G1</text>
+	  <rect id="r7-c2" x="50" y="300" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r7-c2" x="95" y="345" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">G2</text>
+	  <rect id="r7-c3" x="100" y="300" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r7-c3" x="145" y="345" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">G3</text>
+	  <rect id="r7-c4" x="150" y="300" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r7-c4" x="195" y="345" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">G4</text>
+	  <rect id="r7-c5" x="200" y="300" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r7-c5" x="245" y="345" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">G5</text>
+	  <rect id="r7-c6" x="250" y="300" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r7-c6" x="295" y="345" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">G6</text>
+	  <rect id="r7-c7" x="300" y="300" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r7-c7" x="345" y="345" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">G7</text>
+	  <rect id="r7-c8" x="350" y="300" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r7-c8" x="395" y="345" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">G8</text>
+	  <rect id="r7-c9" x="400" y="300" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r7-c9" x="445" y="345" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">G9</text>
+	  <rect id="r7-c10" x="450" y="300" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r7-c10" x="495" y="345" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">G10</text>
+
+	  <rect id="r8-c1" x="0" y="350" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r8-c1" x="45" y="395" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">H1</text>
+	  <rect id="r8-c2" x="50" y="350" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r8-c2" x="95" y="395" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">H2</text>
+	  <rect id="r8-c3" x="100" y="350" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r8-c3" x="145" y="395" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">H3</text>
+	  <rect id="r8-c4" x="150" y="350" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r8-c4" x="195" y="395" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">H4</text>
+	  <rect id="r8-c5" x="200" y="350" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r8-c5" x="245" y="395" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">H5</text>
+	  <rect id="r8-c6" x="250" y="350" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r8-c6" x="295" y="395" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">H6</text>
+	  <rect id="r8-c7" x="300" y="350" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r8-c7" x="345" y="395" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">H7</text>
+	  <rect id="r8-c8" x="350" y="350" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r8-c8" x="395" y="395" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">H8</text>
+	  <rect id="r8-c9" x="400" y="350" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r8-c9" x="445" y="395" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">H9</text>
+	  <rect id="r8-c10" x="450" y="350" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r8-c10" x="495" y="395" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">H10</text>
+
+	  <rect id="r9-c1" x="0" y="400" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r9-c1" x="45" y="445" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">I1</text>
+	  <rect id="r9-c2" x="50" y="400" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r9-c2" x="95" y="445" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">I2</text>
+	  <rect id="r9-c3" x="100" y="400" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r9-c3" x="145" y="445" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">I3</text>
+	  <rect id="r9-c4" x="150" y="400" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r9-c4" x="195" y="445" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">I4</text>
+	  <rect id="r9-c5" x="200" y="400" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r9-c5" x="245" y="445" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">I5</text>
+	  <rect id="r9-c6" x="250" y="400" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r9-c6" x="295" y="445" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">I6</text>
+	  <rect id="r9-c7" x="300" y="400" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r9-c7" x="345" y="445" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">I7</text>
+	  <rect id="r9-c8" x="350" y="400" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r9-c8" x="395" y="445" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">I8</text>
+	  <rect id="r9-c9" x="400" y="400" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r9-c9" x="445" y="445" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">I9</text>
+	  <rect id="r9-c10" x="450" y="400" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r9-c10" x="495" y="445" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">I10</text>
+
+	  <rect id="r10-c1" x="0" y="450" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r10-c1" x="45" y="495" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">J1</text>
+	  <rect id="r10-c2" x="50" y="450" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r10-c2" x="95" y="495" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">J2</text>
+	  <rect id="r10-c3" x="100" y="450" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r10-c3" x="145" y="495" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">J3</text>
+	  <rect id="r10-c4" x="150" y="450" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r10-c4" x="195" y="495" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">J4</text>
+	  <rect id="r10-c5" x="200" y="450" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r10-c5" x="245" y="495" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">J5</text>
+	  <rect id="r10-c6" x="250" y="450" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r10-c6" x="295" y="495" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">J6</text>
+	  <rect id="r10-c7" x="300" y="450" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r10-c7" x="345" y="495" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">J7</text>
+	  <rect id="r10-c8" x="350" y="450" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r10-c8" x="395" y="495" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">J8</text>
+	  <rect id="r10-c9" x="400" y="450" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r10-c9" x="445" y="495" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">J9</text>
+	  <rect id="r10-c10" x="450" y="450" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+	  <text id="t-r10-c10" x="495" y="495" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">J10</text>
+  </g>
+</svg>

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comentsys.Assets.Games", "Comentsys.Assets.Games\Comentsys.Assets.Games.csproj", "{D2CBE2B1-5EE9-491A-A8E4-D44F08684280}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comentsys.Assets.Games.Tests", "Comentsys.Assets.Games.Tests\Comentsys.Assets.Games.Tests.csproj", "{1C369BF7-C17D-4211-BB7A-8A81137963C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D2CBE2B1-5EE9-491A-A8E4-D44F08684280}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2CBE2B1-5EE9-491A-A8E4-D44F08684280}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2CBE2B1-5EE9-491A-A8E4-D44F08684280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C369BF7-C17D-4211-BB7A-8A81137963C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C369BF7-C17D-4211-BB7A-8A81137963C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C369BF7-C17D-4211-BB7A-8A81137963C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C369BF7-C17D-4211-BB7A-8A81137963C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

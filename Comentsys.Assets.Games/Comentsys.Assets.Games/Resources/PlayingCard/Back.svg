@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="card" viewBox="-120 -168 240 336">
+  <defs>
+    <pattern id="a" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path id="back" d="m4 0 4 4-4 4-4-4Z" fill="#512BD4"/>
+    </pattern>
+  </defs>
+  <rect id="card" width="239" height="335" x="-119.5" y="-167.5" fill="#FFFFFF" stroke="#000000" rx="12" ry="12"/>
+  <rect width="216" height="312" x="-108" y="-156" fill="url(#a)" rx="12" ry="12"/>
+</svg>

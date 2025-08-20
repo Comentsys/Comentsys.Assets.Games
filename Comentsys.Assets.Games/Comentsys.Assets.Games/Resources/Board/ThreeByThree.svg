@@ -1,0 +1,24 @@
+<svg viewBox="0 0 152 152" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(1,1)">
+    <rect id="r1-c1" x="0" y="0" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+    <text id="t-r1-c1" x="45" y="45" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">A1</text>
+    <rect id="r1-c2" x="50" y="0" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+    <text id="t-r1-c2" x="95" y="45" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">A2</text>
+    <rect id="r1-c3" x="100" y="0" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+    <text id="t-r1-c3" x="145" y="45" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">A3</text>
+	  
+    <rect id="r2-c1" x="0" y="50" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+    <text id="t-r2-c1" x="45" y="95" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">B1</text>
+    <rect id="r2-c2" x="50" y="50" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+    <text id="t-r2-c2" x="95" y="95" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">B2</text>
+    <rect id="r2-c3" x="100" y="50" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+    <text id="t-r2-c3" x="145" y="95" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">B3</text>
+    
+	<rect id="r3-c1" x="0" y="100" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+    <text id="t-r3-c1" x="45" y="145" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">C1</text>
+    <rect id="r3-c2" x="50" y="100" width="50" height="50" fill="#000000" stroke-width="2" stroke="#D3D3D3" />
+    <text id="t-r3-c2" x="95" y="145" font-size="6" text-anchor="end" fill="#FFFFFF" font-family="sans-serif">C2</text>
+    <rect id="r3-c3" x="100" y="100" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+    <text id="t-r3-c3" x="145" y="145" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">C3</text>
+  </g>
+</svg>

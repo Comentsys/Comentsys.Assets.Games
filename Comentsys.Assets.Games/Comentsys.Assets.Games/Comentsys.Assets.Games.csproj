@@ -4,18 +4,19 @@
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<LangVersion>10.0</LangVersion>
-		<Title>Asset Resource for Games including Chess and Mahjong</Title>
+		<LangVersion>13.0</LangVersion>
+		<Title>Asset Resource for Games including Chess, Mahjong, Playing Cards, Dice, Dominoes, Piece and Board</Title>
 		<Authors>Comentsys</Authors>
 		<Company>Comentsys</Company>
-		<Version>1.1.0</Version>
+		<Version>2.0.0</Version>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageReleaseNotes>
 			1.0.0 - Initial Release
 			1.1.0 - Update for Comentsys.Toolkit
+			2.0.0 - Add Playing Cards, Dice, Dominoes, Piece and Board
 		</PackageReleaseNotes>
 		<PackageProjectUrl>https://github.com/Comentsys/Comentsys.Assets.Games</PackageProjectUrl>
-		<Description>Asset Resource for Games including Chess and Mahjong</Description>
+		<Description>Asset Resource for Games including Chess, Mahjong, Playing Cards, Dice, Dominoes, Piece and Board</Description>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryUrl>https://github.com/Comentsys/Comentsys.Assets.Games</RepositoryUrl>
@@ -25,7 +26,12 @@
 
 	<ItemGroup>
 		<EmbeddedResource Include="Resources\Chess\*\*.svg" />
+		<EmbeddedResource Include="Resources\Dice\*.svg" />
+		<EmbeddedResource Include="Resources\Domino\*\*.svg" />
 		<EmbeddedResource Include="Resources\Mahjong\*.svg" />
+		<EmbeddedResource Include="Resources\Piece\*\*.svg" />			
+		<EmbeddedResource Include="Resources\PlayingCard\*.svg" />
+		<EmbeddedResource Include="Resources\Board\*.svg" />
 	</ItemGroup>
 
 	<ItemGroup>

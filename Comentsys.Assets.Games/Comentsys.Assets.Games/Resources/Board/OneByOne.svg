@@ -1,0 +1,6 @@
+<svg viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(1,1)">
+    <rect id="r1-c1" x="0" y="0" width="50" height="50" fill="#FFFFFF" stroke-width="2" stroke="#D3D3D3" />
+    <text id="t-r1-c1" x="45" y="45" font-size="6" text-anchor="end" fill="#000000" font-family="sans-serif">A1</text>
+  </g>
+</svg>
